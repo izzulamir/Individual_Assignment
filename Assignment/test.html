@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM1 Campaign Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>RM1 Campaign Program</h1>
+    </header>
+
+    <section>
+        <div class="program-info">
+            <img src="international-islamic-university-malaysia-logo-221DAA8603-seeklogo.com.png" alt="IIUM Logo">
+            </img>
+            <img src="rm1 example.png" alt="Program Image">
+            <h2>RM1 Campaign</h2>
+            <p>
+            <ul>Your Contributions Be Perpetual For The Pleasure Of Allah swt</ul>
+            </p>
+            <p>Quranic Verse: Al-Baqarah:261</p>
+        </div>
+
+        <div class="form-container">
+            <h2>Monthly Salary Deduction Form</h2>
+            <form id="deductionForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="Staff no">Staff no:</label>
+                <input type="text" id="number" name="number" required>
+
+                <label for="text"> K/C/D/I/O:</label>
+                <input type="text" id="KCDIO" name="KCDIO" required>
+
+                <label for="salary">Monthly Salary:</label>
+                <input type="text" id="salary" name="salary" required>
+
+                <label for="text">Contact No:</label>
+                <input type="text" id="Contact" name="Contact" required>
+
+                <label for="text">Email</label>
+                <input type="text" id="Email" name="Email" required>
+
+
+
+                <label for="deductionOption">Deduction Option:</label>
+                <select id="deductionOption" name="deductionOption" required>
+                    <option value="1">Rm 1.00</option>
+                    <option value="5">Rm 5.00</option>
+                    <option value="10">Rm 10.00 </option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div>
+            <h2>IIUM Endowment Fund Contact Information</h2>
+            <p>Contact: 03 6196 4268</p>
+            <p>Email: ief@iium.edu.my</p>
+            <a href="www.iium.edu.my/ief">www.iium.edu.my/ief</a>
+        </div>
+    </section>
+    <button class="scroll-button" onclick="scrollToTop()">Scroll To Top</button>
+
+    <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+</body>
+
+</html>
